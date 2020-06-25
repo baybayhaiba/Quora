@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home1"
+        android:title="@string/home"
+        android:icon="@drawable/home_clicked"
+        android:enabled="true"/>
+
+    <item android:id="@+id/edit"
+        android:title="@string/edit"
+        android:icon="@drawable/edit_dontclick"
+        android:enabled="true"/>
+
+    <item android:id="@+id/social"
+        android:title="@string/social"
+        android:icon="@drawable/social_dontclick"
+        android:enabled="true"/>
+
+    <item android:id="@+id/notifcation"
+        android:title="@string/notification"
+        android:icon="@drawable/notification_dontclick"
+        android:enabled="true"/>
+</menu>
